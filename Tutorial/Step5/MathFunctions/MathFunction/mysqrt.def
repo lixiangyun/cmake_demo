@@ -1,0 +1,11 @@
+; GGFace.def : 声明 DLL 的模块参数
+LIBRARY      "GGFace"
+
+EXPORTS 
+    ;module detect
+	gfCreateFaceDetector
+	gfDestroyFaceDetector
+	gfFaceDetectPic
+	gfFaceDetectRaw
+	gfDrawOnFaces
+	
